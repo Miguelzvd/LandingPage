@@ -1,5 +1,5 @@
-# TrainingPage:
-https://xxmiguelhubxx.github.io/TrainingPage/
+# LandingPage:
+https://xxmiguelhubxx.github.io/LandingPage/
 
 Not yet compatible with mobile devices, but i'll make it
 
