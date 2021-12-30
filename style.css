@@ -5,12 +5,11 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
 }
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #150257 16.62%, #402b8d 82.61%) ;
+    background: linear-gradient(68.15deg, #150257 16.62%, #402b8d 82.61%);
 }
 
 .Cabeçalho{
@@ -23,19 +22,21 @@ body{
 .Cabeçalho-logo{
     color: white;
     font-family: 'Righteous', cursive;
+    font-size: 2vmax;
 }
 
 .Cabeçalho-menu{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-left: 50px;
 }
 
 .Cabeçalho-menu-item{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     color: #FFF2E7;
-    font-size: 18px;
+    font-size: 1vmax;
 }
 
 .Conteudo{
@@ -60,32 +61,31 @@ body{
 .Conteudo-principal-escrito-titulo{
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 4vmax;
     color: #FFF2E7;
 }
 
 .Conteudo-principal-imagem{
-    width: 400px;
+    width: 50vmin;
     border-radius: 50%;
 }
 
 .Conteudo-principal-escrito-subtitulo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 24px;
     color: #FFF2E7;
 }
 
 .Conteudo-principal-escrito-botao{
     background-color: #D55833;
     color: #110337;
-    width: 180px;
-    height: 60px;
+    width: 40vmin;
+    height: 10vmin;
     border-style: none;
     border-radius: 20px;
     box-shadow: 4px 5px 4px #110337;
     font-family: 'Sarala', sans-serif;
-    font-size: 20px;
+    font-size: 4vmin;
 }
 
 .Conteudo-secundario{
@@ -111,6 +111,7 @@ body{
     color: #FFF2E7;
     font-family: 'Righteous', cursive;
     font-weight: 400;
+    text-align: center;
 }
 
 .rodape{
